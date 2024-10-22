@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tste</title>
+    <style>
+        body {
+            background-color: rgb(123, 121, 121);
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px 10px 20px rgba(15, 59, 220, 0.459);
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+         0% {
+            transform: translateY();
+         }
+         50% {
+            transform: translateY(-08px);
+         }
+         100% {
+            transform: translateY(0px);
+         }
+         
+        }
+    </style>
+</head>
+<body>
+    <div id="bola"></div>
+</body>
+</html>
